@@ -39,6 +39,15 @@ dependencies {
 	implementation group: 'org.springframework.security', name: 'spring-security-web', version: '5.7.1'
 	implementation group: 'org.springframework.security', name: 'spring-security-config', version: '5.7.1'
 	implementation group: 'org.springframework.security', name: 'spring-security-taglibs', version: '5.7.1'
+
+	//jtw
+	implementation group: 'io.jsonwebtoken', name: 'jjwt-jackson', version: '0.11.1'
+	implementation group: 'io.jsonwebtoken', name: 'jjwt-impl', version: '0.11.1'
+	implementation group: 'io.jsonwebtoken', name: 'jjwt-api', version: '0.11.1'
+
+	//mapper
+	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.2.Final'
+	implementation 'org.mapstruct:mapstruct:1.5.2.Final'
 }
 
 tasks.named('test') {
