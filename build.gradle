@@ -34,6 +34,11 @@ dependencies {
 
 	//otp lib
 	implementation group: 'org.jboss.aerogear', name: 'aerogear-otp-java', version: '1.0.0'
+
+	//security
+	implementation group: 'org.springframework.security', name: 'spring-security-web', version: '5.7.1'
+	implementation group: 'org.springframework.security', name: 'spring-security-config', version: '5.7.1'
+	implementation group: 'org.springframework.security', name: 'spring-security-taglibs', version: '5.7.1'
 }
 
 tasks.named('test') {
