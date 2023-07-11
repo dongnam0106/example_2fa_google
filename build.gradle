@@ -33,7 +33,7 @@ dependencies {
 	implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.31'
 
 	//otp lib
-	implementation group: 'org.jboss.aerogear', name: 'aerogear-otp-java', version: '1.0.0'
+	implementation group: 'com.warrenstrange', name: 'googleauth', version: '1.5.0'
 
 	//security
 	implementation group: 'org.springframework.security', name: 'spring-security-web', version: '5.7.1'
